@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>{{tittle}}</title>
+    <style>
+        .main{
+            width: 1000px;
+            background-color: green;
+            color: white;
+            padding: 20px;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    {%for n in clist%}
+    <div>{{forloop.counter}}{{n}}</div>
+    <!-- <div>{{forloop.revcounter}}{{n}}</div>
+    <div>{{forloop.last}}{{n}}</div>
+    <div>{{forloop.first}}{{n}}</div> -->
+    {%endfor%}
+    <table border="1", cellpadding="30">
+        <tr>
+            <th>Name</th>
+            <th>Phone Number</th>
+        </tr>
+        {% for d in student_details%}
+        <tr>
+            <td>{{d.name}}</td>
+            <td>{{d.phone}}</td>
+        </tr>
+        {%endfor%}
+    </table>
+    
+</body>
+</html>
