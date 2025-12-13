@@ -23,3 +23,6 @@ def coursedetail(request, courseid):
     return HttpResponse(courseid)
 def coursedetails(request, courseid):
     return HttpResponse(courseid)
+
+# def coursedetails(request, courseid):
+    # return HttpResponse(courseid)
