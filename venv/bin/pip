@@ -1,4 +1,4 @@
-#!/home/sahil/Sahil/Django/practice/venv/bin/python3
+#!/home/ubuntu/sahil/EC2_launch/venv/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys
