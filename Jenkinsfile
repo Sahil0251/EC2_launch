@@ -5,7 +5,7 @@ pipeline {
         stage('Clone Repo') {
             steps {
                 git branch: 'main',
-                url: 'https://github.com/<your-username>/<repo-name>.git'
+                url: 'https://github.com/Sahil0251/EC2_launch.git'
             }
         }
 
